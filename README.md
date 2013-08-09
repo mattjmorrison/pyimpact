@@ -2,6 +2,10 @@
 
 This egg is heavily based on amadeus' server.py for which none of this would be possible.
 
+Thanks amadeus
+
+https://github.com/amadeus/python-impact
+
 ## Disclaimer
 
 Use this in a production environment at your own risk.  In fact it is heavily discouraged to deploy
