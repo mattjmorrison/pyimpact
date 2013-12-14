@@ -10,8 +10,10 @@ setup(
     description="A lightweight development webserver for ImpactJS",
     author="amadeus / taddeimania",
     author_email="jtaddei@gmail.com",
-    packages=['pyimpact'],
+    packages=find_packages(),
     install_requires=['pytool'],
+    tests_require=['nose'],
+    test_suite="nose.collector",
     entry_points={
         'console_scripts': {
             "startimpact = pyimpact.cmd:Main.console_script",

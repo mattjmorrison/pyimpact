@@ -29,3 +29,7 @@ The command line arguments are strictly optional and will default to:
 ### Tip
 
 Change the --host=0.0.0.0 if you'd like to access your game across a local network.
+
+### Testing
+
+`python setup.py test`
